@@ -1,0 +1,14 @@
+trainer:
+  max_len: 64
+  vocab_size: 28
+  hidden_size: 128
+  num_hidden_layers: 6
+  num_attention_heads: 4
+  intermediate_size: 256
+  learning_rate: 0.001
+  max_epochs: 1000
+  train_batch_size: 512
+  val_batch_size: 4096
+  accelerator: gpu
+  filename: words_250000_train.txt
+  wandb_project_name: hangman

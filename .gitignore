@@ -1,0 +1,8 @@
+/hangman
+/lightning_logs
+/wandb
+/.vscode
+/model_ckpt
+/__pycache__
+/.pytest_cache
+/.env
